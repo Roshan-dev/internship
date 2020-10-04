@@ -140,13 +140,13 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 EMAIL_HOST='smtp.gmail.com'
-EMAIL_HOST_USER='devroshan666@gmail.com'
-EMAIL_HOST_PASSWORD='roshan15'
-EMAIL_PORT=587
-EMAIL_USER_TLS=True
-EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST_USER  = 'yourremail@gmail.com'
+EMAIL_HOST_PASSWORD = 'your password'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
 #enable less secure app
 #https://myaccount.google.com/lesssecureapps?pli=1
 
